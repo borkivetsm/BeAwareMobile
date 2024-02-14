@@ -1,0 +1,429 @@
+:root {
+    --red: rgb(133, 0, 0);
+    --white: #ffffff;
+}
+
+* {
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-image: url(./img/headerblurblack.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+
+.headernav {
+    color: var(--white);
+    padding-top: 20px;
+    padding-left: 30px;
+    font-weight: 700;
+}
+
+.headertitle {
+    color: var(--white);
+    font-weight: 600;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+
+.first {
+    background-color: black;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.first-title {
+    color: var(--white);
+    padding: 20px;
+}
+
+.first-intro {
+    color: var(--white);
+    padding: 0px 20px 20px;
+    font-weight: 400;
+}
+
+.first-ul {
+    color: var(--white);
+    border: 7px var(--red) solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0px 10px;
+}
+
+.first-li {
+    padding-bottom: 7px;
+}
+
+.goals {
+    background-image: url(./img/goals-fog.JPEG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.goals-title {
+    color: var(--white);
+    padding: 20px;
+    font-weight: 500;
+}
+
+.goals-ul {
+    color: var(--white);
+    padding: 0px 20px 15px;
+}
+
+.histback {
+    background-color: black;
+}
+
+.histback-title {
+    color: var(--white);
+    font-weight: 600;
+    padding: 20px;
+}
+
+.histback-intro {
+    color: var(--white);
+    padding: 0px 20px;
+}
+
+.histback-rect {
+    padding: 30px;
+    background-color: var(--red);
+}
+
+.histback-rect-title {
+    color: var(--white);
+}
+
+.histback-info {
+    color: var(--white);
+    font-size: small;
+}
+
+.histback-rect:first-of-type {
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.histback-rect:nth-of-type(2) {
+    margin-right: 50px;
+    margin-left: 10px;
+    
+}
+
+.photo {
+    background-image: url(./img/sec5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.photo-text {
+    color: var(--white);
+    padding: 15px 20px 0px;
+}
+
+.photo-text:last-of-type {
+    padding-bottom: 15px;
+}
+
+.rusagr {
+    background-color: black;
+
+}
+
+.rusagr-intro-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.rusagr-img {
+    width: 50%;
+    height: 50%;
+}
+
+.rusagr-title {
+    color: var(--red);
+    position: relative;
+    right: 30%;
+}
+
+.rusagr-intro {
+    color: var(--white);
+    font-size: small;
+    padding: 0px 15px;
+}
+
+
+
+.sponsor {
+    background-color: black;
+
+}
+
+.sponsor-title {
+    color: var(--white);
+    padding: 20px 20px 0px;
+}
+
+.sponsor-sceme {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.sponsor-sceme-text {
+    color: var(--white);
+    padding: 0px 10px;
+}
+
+.sponsor-sceme-img {
+    height: 50%;
+    width: 10%;
+}
+
+.sponsor-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sponsor-img {
+    height: 50%;
+    width: 50%;
+}
+
+.sponsor-intro-text {
+    color: var(--white);
+    padding-left: 20px;
+}
+
+.sponsor-text {
+    color: var(--white);
+    padding: 0px 20px 10px;
+}
+
+.africa {
+    background-color: black;
+
+}
+
+.africa-title {
+    color: var(--white);
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.africa-text {
+    color: var(--white);
+    font-size: small;
+    padding: 0px 20px;
+}
+
+.africa-img {
+    height: 50%;
+    width: 50%;
+}
+
+.africa-wrapper {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.rusafrica {
+    background-color: black;
+
+}
+
+.rusafrica-title {
+    color: var(--white);
+    padding: 20px;
+}
+
+.rusafrica-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.rusafrica-text {
+    color: var(--white);
+    padding: 0px 20px;
+}
+
+.rusafrica-img {
+    width: 50%;
+    height: 50%;
+}
+
+.rusafrica-wars {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rusafrica-wars-text {
+    color: var(--white);
+    font-size: small;
+    text-align: center;
+    border: 2px var(--red) solid;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.myanmar {
+    background-image: url(./img/myanmar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.myanmar-title {
+    color: var(--white);
+    text-shadow: rgb(0, 0, 0) 0px 0px 20px;
+    padding: 20px;
+}
+
+.myanmar-text {
+    color: var(--white);
+    text-shadow: rgb(0, 0, 0) 0px 0px 20px;
+    padding: 0px 20px;
+}
+
+.myanmar-text:last-of-type {
+    padding-bottom: 20px;
+}
+
+.taiwan {
+    background-color: black;
+}
+
+.taiwan-title {
+    color: var(--white);
+    padding: 20px;
+}
+
+.taiwan-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.taiwan-img {
+    height: 30%;
+    width: 30%;
+    position: sticky;
+    top: 100px;
+}
+
+.taiwan-text {
+    color: var(--white);
+    padding: 10px;
+}
+
+.venezuela {
+    background-color: black;
+}
+
+.venezuela-title {
+    color: var(--white);
+    padding: 20px;
+}
+
+.venezuela-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.venezuela-img {
+    height: 30%;
+    width: 30%;
+    position: sticky;
+    top: 100px;
+}
+
+.venezuela-text {
+    color: var(--white);
+    padding: 10px;
+}
+
+.interview {
+    background-color: black;
+
+}
+
+.interview-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.interview-img {
+    height: 50%;
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.interview-title {
+    color: var(--white);
+    padding: 20px 20px 0px;
+}
+
+.interview-text {
+    color: var(--white);
+    padding: 20px;
+}
+
+.interview-link {
+    height: 34%;
+    width: 50%;
+    position: relative;
+    right: 25%;
+}
+
+.help {
+    background-color: black;
+}
+
+.help-title {
+    color: var(--white);
+    padding: 20px;
+}
+
+/* .help-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
+
+.help-text {
+    color: var(--white);
+    padding: 10px;
+    border: 2px solid var(--red);
+    border-radius: 30px;
+    margin: 15px;
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+}
