@@ -366,6 +366,20 @@ body {
     padding: 10px;
 }
 
+.culture {
+    background-color: black;
+}
+
+.culture-title {
+    color: var(--white);
+    padding: 20px 20px 0px;
+}
+
+.culture-text {
+    color: var(--white);
+    padding: 20px;
+}
+
 .interview {
     background-color: black;
 
