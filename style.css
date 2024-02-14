@@ -21,7 +21,7 @@ body {
     background-image: url(./img/headerblurblack.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 0px;
+    padding-bottom: 1px;
 }
 
 .headernav {
@@ -43,6 +43,8 @@ body {
     background-color: black;
     margin-top: 1px;
     margin-bottom: 1px;
+    padding-top: 1px;
+    padding-bottom: 0px;
 }
 
 .first-title {
@@ -72,21 +74,33 @@ body {
     background-image: url(./img/goals-fog.JPEG);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .goals-title {
     color: var(--white);
-    padding: 20px;
-    font-weight: 500;
+    padding: 20px 20px 0px;
+    font-weight: 700;
+}
+
+.goals-text {
+    color: var(--white);
+    padding: 0px 20px;
+    font-size: small;
 }
 
 .goals-ul {
     color: var(--white);
     padding: 0px 20px 15px;
+    font-size: small;
+    text-shadow: rgb(0, 0, 0) 0px 0px 20px;
 }
 
 .histback {
     background-color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .histback-title {
@@ -130,7 +144,8 @@ body {
     background-image: url(./img/sec5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .photo-text {
@@ -144,7 +159,8 @@ body {
 
 .rusagr {
     background-color: black;
-
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .rusagr-intro-wrapper {
@@ -170,11 +186,20 @@ body {
     padding: 0px 15px;
 }
 
-
+.rusagr-text {
+    color: var(--white);
+    font-size: small;
+    padding: 20px;
+    background-color: var(--red);
+    border-radius: 30px;
+    margin: 20px;
+    text-align: center;
+}
 
 .sponsor {
     background-color: black;
-
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .sponsor-title {
@@ -224,7 +249,8 @@ body {
 
 .africa {
     background-color: black;
-
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .africa-title {
@@ -252,7 +278,8 @@ body {
 
 .rusafrica {
     background-color: black;
-
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .rusafrica-title {
@@ -296,6 +323,8 @@ body {
     background-image: url(./img/myanmar.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .myanmar-title {
@@ -316,6 +345,8 @@ body {
 
 .taiwan {
     background-color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .taiwan-title {
@@ -342,6 +373,8 @@ body {
 
 .venezuela {
     background-color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .venezuela-title {
@@ -368,6 +401,8 @@ body {
 
 .culture {
     background-color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .culture-title {
@@ -382,7 +417,8 @@ body {
 
 .interview {
     background-color: black;
-
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .interview-wrapper {
@@ -416,6 +452,8 @@ body {
 
 .help {
     background-color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .help-title {
@@ -440,4 +478,35 @@ body {
 
 .footer {
     background-color: black;
+}
+
+.footerdiv1 {
+    color: rgb(83, 100, 244);
+    padding: 20px;
+}
+
+.footerdiv2 {
+    padding: 20px;
+}
+
+.footerdiv2 input {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.footerdiv2 button {
+    color: var(--white);
+    background-color: rgb(83, 100, 244);
+    border: 1px solid rgb(83, 100, 244);
+    border-radius: 30px;
+    padding: 10px; 
+}
+
+.footer-policy {
+    color: var(--white);
+    text-align: center;
+    font-size: x-small;
+    padding-bottom: 5px;
 }
